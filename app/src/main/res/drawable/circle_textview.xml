@@ -1,0 +1,23 @@
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:shape="rectangle">
+
+ //The width and color of the border//
+ <stroke
+     android:width="5dp"
+     android:color="#ffba0c" />
+// corner radius
+<corners android:radius="10dp"  />
+//inside color
+<solid
+    android:color="#ffebb8"/>
+//padding
+<padding
+    android:left="20dp"
+    android:top="10dp"
+    android:bottom="10dp"
+    android:right="20dp" >
+
+</padding>
+
+</shape>
